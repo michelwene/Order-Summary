@@ -1,0 +1,119 @@
+@font-face{
+    font-family: 'Red Hat Display', sans-serif;
+    src: url(https://fonts.google.com/specimen/Red+Hat+Display);
+}
+html{
+    font-family: 'Red Hat Display';
+}
+
+body{
+    background-color: aliceblue;
+    background-image: url("../../images/pattern-background-desktop.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display';
+}
+
+.cabecalhoPrincipal .container{
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+
+/*menu Principal*/
+.conteudoPrincipal{
+    font-family: 'Red Hat Display';
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    margin: auto;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.cabecalhoPrincipal-imagem{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.descricaoDoPedido{
+    text-align: center;
+}
+.descricaoDoPedido-titulo{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px 20px 20px 20px;
+}
+
+.descricaoDoPedido .container{
+    width: 350px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.valorDoPlano .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+    padding: 25px;
+}
+.detalheValorDoPlano{
+    padding-right: 100px;
+}
+
+.iconeMusica{
+    background-size: cover;
+    position: relative;
+    padding-left: 50px;
+}
+
+.botaoMudar{
+    font-weight: bold;
+}
+
+.botaoPagamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.botaoProcederPagamento {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 10px 18px #d3d3d3;
+}
+
+.botaoProcederPagamento:hover{
+    box-sizing: 100%;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.botaoCancelarPagamento{
+    color:gray;
+    border-style: none;
+    padding-bottom: 50px;
+    cursor: pointer;
+}
+
+.botaoCancelarPagamento:hover{
+    font-size: 10px;
+}
+
+.attribution{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+@media screen and (min-width: 350px){
+    
+}
