@@ -88,7 +88,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/michelwene)
+- Frontend Mentor - [@michelwene](https://www.frontendmentor.io/profile/michelwene)
 - Linkedin - [@michelwene](https://www.linkedin.com/in/michelwene/)
 
 

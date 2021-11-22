@@ -33,16 +33,19 @@ body{
     margin: auto;
     background-color: white;
     border-radius: 0px 0px 20px 20px;
+    box-shadow: 0 10px 18px #a8a8a8;
 }
 
 .cabecalhoPrincipal-imagem{
     border-radius: 20px 20px 0px 0px;
+    box-shadow: 10px 0 18px #a8a8a8;
 }
 
 .descricaoDoPedido{
     text-align: center;
 }
 .descricaoDoPedido-titulo{
+    color: black;
     font-size: 40px;
     font-weight: bold;
     padding: 10px 20px 20px 20px;
@@ -88,7 +91,8 @@ body{
     margin-bottom: 20px;
     border-radius: 10px;
     width: 350px;
-    box-shadow: 0 10px 18px #d3d3d3;
+    box-shadow: 0 10px 18px #a8a8a8;
+    
 }
 
 .botaoProcederPagamento:hover{
@@ -98,14 +102,18 @@ body{
 }
 
 .botaoCancelarPagamento{
-    color:gray;
+    background-color: white;
+    color: #a8a8a8;
     border-style: none;
     padding-bottom: 50px;
+    padding-top: 10px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .botaoCancelarPagamento:hover{
-    font-size: 10px;
+    width: 100%;
+    font-size: 100%;
 }
 
 .attribution{
@@ -114,6 +122,44 @@ body{
     padding-top: 100px;
 }
 
-@media screen and (min-width: 350px){
+@media (min-width=720){
     
+body{
+    background-image: url("../../images/pattern-background-mobile.svg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.cabecalhoPrincipal{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.cabecalhoPrincipal-imagem{
+    justify-content: center;
+    width: auto;
+}
+
+.conteudoPrincipal{
+    width: 100%;
+}
+
+.valorDoPlano .container{
+    display: flex;
+    justify-content: space-around;
+}
+.detalheValorDoPlano{
+    padding: 0;
+}
+.botaoMudar{
+    padding-right: 30px;
+}
+
+.attribution{
+    display: flex;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+}
+
 }
