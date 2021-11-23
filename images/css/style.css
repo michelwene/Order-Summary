@@ -122,44 +122,43 @@ body{
     padding-top: 100px;
 }
 
-@media (min-width=720){
-    
+@media(max-width: 768px){
 body{
     background-image: url("../../images/pattern-background-mobile.svg");
-    background-size: auto;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .cabecalhoPrincipal{
-    display: flex;
-    justify-content: center;
-    width: 100%;
+    margin: auto;
 }
 .cabecalhoPrincipal-imagem{
-    justify-content: center;
-    width: auto;
+    width: 100%;
 }
 
 .conteudoPrincipal{
-    width: 100%;
+    width: auto;
 }
 
 .valorDoPlano .container{
-    display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+
+    gap: 20px;
+    margin: auto;
 }
 .detalheValorDoPlano{
     padding: 0;
 }
-.botaoMudar{
-    padding-right: 30px;
+
+.iconeMusica{
+    padding-left: auto;
 }
 
+.botaoProcederPagamento{
+    width: 100%;
+}
 .attribution{
-    display: flex;
     margin: auto;
-    width: 200px;
-    height: 200px;
 }
 
 }
