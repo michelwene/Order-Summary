@@ -142,7 +142,6 @@ body{
 
 .valorDoPlano .container{
     justify-content: flex-start;
-
     gap: 20px;
     margin: auto;
 }
