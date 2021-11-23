@@ -30,6 +30,7 @@ Users should be able to:
 
 - Desktop
 <img src="images/1440x720.png"/>
+
 - Mobile
 <img src="images/375x750.png"/>
 
