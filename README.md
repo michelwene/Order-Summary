@@ -28,13 +28,8 @@ Users should be able to:
 ### Screenshot
 
 
-![Desktop](<link
-      rel="icon"
-      type="image/png"
-      sizes="1440x720"
-      href="./images/1440x720.png"
-    />)
-![Mobile](<img src="images/375x750.png"/>)
+<img src="images/1440x720.png"/>
+<img src="images/375x750.png"/>
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
